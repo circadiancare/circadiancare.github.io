@@ -1,0 +1,17 @@
+.header-mobile {
+    display: block;
+}
+.content-mobile {
+    display: block;
+}
+
+.header-brand {
+    padding-left: 0;
+}
+
+
+@media (max-width: 47.999em) {
+    .header-brand {
+        padding-left: 1em;
+    }
+}
