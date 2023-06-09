@@ -1,6 +1,5 @@
 .header-mobile {
     background-color: #192436;
-    margin-bottom: 1em;
     -webkit-font-smoothing: antialiased;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -19,6 +18,15 @@
     background-color: transparent;
     border-radius: 3px;
     border: 2px solid #b09e81;
+}
+
+.header-brand {
+    background-image: url("images/logo.png");
+    background-repeat: no-repeat;
+    background-size: 8%;  
+    background-position: center left;
+    padding-left: 9%;
+    margin-left: 5%;
 }
 
 .header-mobile.open {
@@ -82,6 +90,10 @@
     transform: rotate(-45deg);
 }
 
+.header-mobile .header-menu.pure-menu-horizontal {
+    display: none;
+}
+
 .content-mobile {
     display: none;
 }
@@ -137,21 +149,59 @@
 
 #welcome-text {
     padding: 30% 10%;
+    padding-bottom: 20%;
+}
+
+.content-mobile {
+    background-color: #192436;
+    color: #b09e81;
+    min-height: 90vh;
 }
 
 .padding-10 {
     padding: 10%;
 }
 
-#home-logo {
+.home-logo {
     width: 100%;
-    height: 100%;
+    height: 70%;
     background-image: url("images/logo.png");
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: 60%;  
     background-position: center center;
-    margin-top: 10%;
     content: '';
+}
+
+.logo-divider {
+    content: '';
+    border: 1px solid #b09e81;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.logo-text {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    color: #b09e81;
+    margin: 0;
+    padding-top: 5%;
+}
+
+.logo-subtext {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.content-mobile .section-logo {
+    background-color: #192436;
+}
+
+.content-mobile .home-logo {
+    min-height: 50vh;
 }
 
 @media (max-width: 47.999em) {
@@ -163,7 +213,7 @@
         padding-right: 2%;
     }
     .header-mobile {
-        height: 1.7em;
+        height: 10vh;
         display: block;
     }
     .content {
