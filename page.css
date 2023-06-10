@@ -5,13 +5,26 @@
     display: block;
 }
 
-.header-brand {
-    padding-left: 0;
+.page-heading {
+    display: inline-block;
+    padding-bottom: 0.2em;
+    border-bottom: 2px solid rgb(204, 204, 204);
+    margin-top: 10%;
 }
 
+.section {
+    font-size: 18px;
+    line-height: 1.4em;
+}
+
+.page {
+    color: rgb(204, 204, 204);
+    background-color: #192436;
+    min-height: 100vh;
+}
 
 @media (max-width: 47.999em) {
-    .header-brand {
-        padding-left: 1em;
+    .header-mobile .header-menu.pure-menu-horizontal {
+        display: none;
     }
 }
