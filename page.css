@@ -46,8 +46,15 @@
     font-size: 24px;
 }
 
+.map {
+    padding-left: 3%;
+}
+
 @media (max-width: 47.999em) {
     .header-mobile .header-menu.pure-menu-horizontal {
         display: none;
+    }
+    .map {
+        padding-left: 0;
     }
 }
