@@ -120,11 +120,24 @@
     height: 90%;
 }
 
+.about-image {
+    background-image: url(images/about.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 10%;
+    height: 100%;
+    width: 100%;
+    min-height: 60vh;
+}
+
 @media (max-width: 47.999em) {
     .header-mobile .header-menu.pure-menu-horizontal {
         display: none;
     }
     .map {
         padding-left: 0;
+    }
+    .about-image {
+        margin-right: 0;
     }
 }
