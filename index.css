@@ -209,6 +209,10 @@ body * {
     min-height: 50vh;
 }
 
+.linkedin, .instagram {
+    color: black;
+}
+
 @media (max-width: 47.999em) {
     .header-toggle {
         display: block;
